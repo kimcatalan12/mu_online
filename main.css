@@ -1,0 +1,22 @@
+:root{
+    /* color pallete */
+    --bs-body-bg: #003C43;
+    --bs-tertiary-bg-rgb: 19, 93, 102;
+}
+/* color pallete */
+.thirdb_color{
+    background-color:#77B0AA;
+}
+.fourth_color{
+    color: #E3FEF7;
+}
+/* color pallete */
+
+h4{
+    margin-bottom: 0px;
+}
+
+.nav-link{
+    text-decoration-color: #E3FEF7!important;
+    text-decoration-thickness: 1px !important;
+}

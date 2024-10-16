@@ -20,3 +20,43 @@ h4{
     text-decoration-color: #E3FEF7!important;
     text-decoration-thickness: 1px !important;
 }
+
+.toggle-button {
+    display: none;
+}
+  
+@media (max-width: 900px) {
+    .toggle-button {
+        display: inline-block;
+    }
+
+    nav .navbar-nav {
+        display: none;
+    }
+
+    #nav-menu.show {
+        display: block; /* Show menu on toggle */
+      }
+
+      #nav-menu li a {
+        display: block;
+        color: #000;
+      }
+}
+
+.button_navbar_color {
+    --bs-btn-color: #77B0AA;
+    --bs-btn-border-color: #77B0AA;
+    --bs-btn-hover-color: #000;
+    --bs-btn-hover-bg: #77B0AA;
+    --bs-btn-hover-border-color: #77B0AA;
+    --bs-btn-focus-shadow-rgb: 13, 202, 240;
+    --bs-btn-active-color: #000;
+    --bs-btn-active-bg: #77B0AA;
+    --bs-btn-active-border-color: #77B0AA;
+    --bs-btn-active-shadow: inset 0 3px 5px rgba(0, 0, 0, 0.125);
+    --bs-btn-disabled-color: #77B0AA;
+    --bs-btn-disabled-bg: transparent;
+    --bs-btn-disabled-border-color: #77B0AA;
+    --bs-gradient: none;
+}

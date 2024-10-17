@@ -3,20 +3,32 @@
     --bs-body-bg: #003C43;
     --bs-tertiary-bg-rgb: 19, 93, 102;
 }
-/* color pallete */
-.secondbc_color{
-    border-color: #135D66;
+
+*{
+  font-family: "Montserrat", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
 }
+
+/* color pallete */
+
 .second_color{
     color: #135D66;
 }
-.third_color{
+.secondb_color, .bg_card_body{
+    background-color: #135D66;
+}
+.secondbc_color{
+    border-color: #135D66;
+}
+.third_color, .card-title, .footer_link{
     color: #77B0AA;
 }
 .thirdb_color{
     background-color:#77B0AA;
 }
-.fourth_color{
+.fourth_color, .card-text{
     color: #E3FEF7;
 }
 /* color pallete */
@@ -50,25 +62,25 @@ h4{
         text-align-last: start;
     }
 
-#nav-menu.show {
-    display: block; /* Show when toggled */
-}
+    #nav-menu.show {
+        display: block; /* Show when toggled */
+    }
 
-/* Ensure nav items stack vertically in small screens */
-#nav-menu .navbar-nav {
-    display: block;
-    padding: 0;
-}
+    /* Ensure nav items stack vertically in small screens */
+    #nav-menu .navbar-nav {
+        display: block;
+        padding: 0;
+    }
 
-#nav-menu li {
-    padding: 10px;
-    text-align: center; /* Center the text */
-}
+    #nav-menu li {
+        padding: 10px;
+        text-align: center; /* Center the text */
+    }
 
-#nav-menu li a {
-    display: block;
-    color: #000;
-}
+    #nav-menu li a {
+        display: block;
+        color: #000;
+    }
 }
 
 .button_navbar_color {

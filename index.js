@@ -1,4 +1,10 @@
-document.getElementById('menu-toggle').addEventListener('click', function() {
-    var navMenu = document.getElementById('nav-menu');
-    navMenu.classList.toggle('show'); // Toggle the 'show' class
+$(document).ready(function () {
+    
+    $('#menu-toggle').on('click', function() {
+        $('#nav-menu').toggleClass('show'); // Toggle the 'show' class
+    });
+
+    const date = new Date().getFullYear();
+    $("#policy_date").text(date + " MU. All Rights Reserved.");
+  
 });

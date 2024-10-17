@@ -83,6 +83,12 @@ h4{
     }
 }
 
+@media (min-width: 900px) and (max-width: 983px) {
+    .nav-link span, .fourth_color span{
+        font-size: 1.2rem !important;
+    }
+}
+
 .button_navbar_color {
     --bs-btn-color: #77B0AA;
     --bs-btn-border-color: #77B0AA;

@@ -140,7 +140,7 @@ h4{
     left: 0; /* Align with the left edge */
     bottom: -3px; /* Position it below the text */
     width: 100%; /* Full width */
-    height: 2px; /* Underline thickness */
+    height: 1px; /* Underline thickness */
     background-color: #E3FEF7; /* Underline color */
     transform: scaleX(1); /* Start fully visible (scale up to 1) */
     transition: transform 0.3s ease; /* Animate the scaling effect */
@@ -159,4 +159,40 @@ h4{
 
 .carousel-caption {
     top: 20%;
+}
+
+.carousel-item img{
+    height: 550px;
+}
+
+@media only screen and (max-width: 767px) {
+    .carousel-item img{
+        height: unset;
+    }
+    .carousel-caption {
+        top: unset;
+        position: unset;
+    }
+}
+
+.hover-effect {
+    
+    transition: all 0.3s ease;
+}
+
+.hover-effect:hover {
+    background: linear-gradient(135deg, #135D66 0%, #71c7a3 100%);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    border: none;
+}
+
+.hover-effect:hover .icon{
+    color: #135D66;
+}
+.hover-effect:hover .third_color{
+    color: #E3FEF7;
+}
+
+.hover-effect:active {
+    box-shadow: none;
 }

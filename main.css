@@ -2,6 +2,7 @@
     /* color pallete */
     --bs-body-bg: #003C43;
     --bs-tertiary-bg-rgb: 19, 93, 102;
+    --bs-body-color: #E3FEF7;
 }
 
 *{
@@ -22,7 +23,7 @@
 .secondbc_color{
     border-color: #135D66;
 }
-.third_color, .card-title, .footer_link{
+.third_color, .card-title, .footer_link, .modal-title{
     color: #77B0AA;
 }
 .thirdb_color{
@@ -164,11 +165,14 @@ h4{
 }
 
 .carousel-caption {
-    top: 20%;
+    position: unset;
+    width: 70%;
 }
 
 .carousel-item img{
     height: 550px;
+    object-fit: contain;
+    image-rendering: pixelated;
 }
 
 @media only screen and (max-width: 767px) {
@@ -201,4 +205,8 @@ h4{
 
 .hover-effect:active {
     box-shadow: none;
+}
+
+.tos:hover span{
+    color: #E3FEF7;
 }

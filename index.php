@@ -44,7 +44,7 @@
                   <i class="fa-solid fa-chevron-down"></i>
                 </button>
                 <ul class="dropdown-menu">
-                  <li><a class="dropdown-item" href="https://ikigai-mu.online/rankings/level/" target="_blank">Top Level</a></li>
+                  <li><a class="dropdown-item" href="https://ikigai-mu.online/rankings/level/" target="_blank">Top Master Level</a></li>
                   <li><a class="dropdown-item disabled" href="#">TBD</a></li>
                   <li><a class="dropdown-item disabled" href="#">TBD</a></li>
                 </ul>

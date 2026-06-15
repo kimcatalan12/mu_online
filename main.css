@@ -38,36 +38,36 @@ h4{
     margin-bottom: 0px;
 }
 
+/* navbar side */
 .toggle-button {
     display: none;
 }
   
 @media (max-width: 900px) {
     .toggle-button {
-        display: inline-block; /* Show toggle button */
+        display: inline-block; 
     }
 
     #nav-menu {
-        display: none; /* Hidden by default */
+        display: none;
         position: absolute;
-        top: 110%; /* Position below the navbar */
+        top: 110%;
         right: 0;
         left: 0;
-        background-color: #135D66; /* Set background */
+        background-color: #135D66; 
         padding: 10px;
-        z-index: 999; /* Ensure it appears above other content */
+        z-index: 999; 
         border-radius: 14px;
         box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
-        transition: all 0.3s ease; /* Smooth dropdown effect */
+        transition: all 0.3s ease; 
         width: max-content;
         text-align-last: start;
     }
 
     #nav-menu.show {
-        display: block; /* Show when toggled */
+        display: block; 
     }
 
-    /* Ensure nav items stack vertically in small screens */
     #nav-menu .navbar-nav {
         display: block;
         padding: 0;
@@ -75,7 +75,7 @@ h4{
 
     #nav-menu li {
         padding: 10px;
-        text-align: center; /* Center the text */
+        text-align: center;
     }
 
     #nav-menu li a {
@@ -131,39 +131,37 @@ h4{
 }
 
 .link-offset-3 {
-    position: relative; /* Set position to relative for the link */
-    text-decoration: none; /* Remove default underline */
+    position: relative; 
+    text-decoration: none; 
 }
 
-/* Create the sliding underline effect only for .fourth_color spans inside .nav-link */
 .nav-link .fourth_color {
-    position: relative; /* Position for the pseudo-element */
+    position: relative;
 }
 
-/* Create the sliding underline effect */
 .nav-link .fourth_color::after {
-    content: ""; /* Necessary for the pseudo-element */
+    content: ""; 
     position: absolute;
-    left: 0; /* Align with the left edge */
-    bottom: -3px; /* Position it below the text */
-    width: 100%; /* Full width */
-    height: 1px; /* Underline thickness */
-    background-color: #E3FEF7; /* Underline color */
-    transform: scaleX(1); /* Start fully visible (scale up to 1) */
-    transition: transform 0.3s ease; /* Animate the scaling effect */
-    transform-origin: left; /* Set the origin for scaling to the left */
+    left: 0; 
+    bottom: -3px; 
+    width: 100%; 
+    height: 1px;
+    background-color: #E3FEF7;
+    transform: scaleX(1);
+    transition: transform 0.3s ease; 
+    transform-origin: left; 
 }
 
-/* Apply hover styles only for .nav-link that contains .fourth_color */
 .nav-link:hover .fourth_color::after {
-    transform: scaleX(0); /* Scale down to 0 on hover, sliding out */
+    transform: scaleX(0); 
 }
 
-/* Color on hover for the text only in the fourth_color span */
 .nav-link:hover .fourth_color {
-    color: #77B0AA; /* Change text color on hover */
+    color: #77B0AA;
 }
+/* navbar side */
 
+/* carousel side*/
 .carousel-caption {
     position: unset;
     width: 70%;
@@ -184,6 +182,7 @@ h4{
         position: unset;
     }
 }
+/* carousel side*/
 
 .hover-effect {
     

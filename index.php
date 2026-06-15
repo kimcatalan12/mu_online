@@ -45,11 +45,8 @@
                 </button>
                 <ul class="dropdown-menu">
                   <li><a class="dropdown-item" href="https://ikigai-mu.online/rankings/level/" target="_blank">Top Level</a></li>
-                  <li><a class="dropdown-item" href="https://ikigai-mu.online/rankings/killers/" target="_blank">Top Killers</a></li>
-                  <li><a class="dropdown-item" href="https://ikigai-mu.online/rankings/guilds/" target="_blank">Top Guilds</a></li>
-                  <li><a class="dropdown-item" href="https://ikigai-mu.online/rankings/online/" target="_blank">Top Online</a></li>
-                  <li><a class="dropdown-item" href="https://ikigai-mu.online/rankings/gens/" target="_blank">Top Gens</a></li>
-                  <li><a class="dropdown-item" href="https://ikigai-mu.online/rankings/master/" target="_blank">Top Master Level</a></li>
+                  <li><a class="dropdown-item disabled" href="#">TBD</a></li>
+                  <li><a class="dropdown-item disabled" href="#">TBD</a></li>
                 </ul>
               </li>
             </div>
